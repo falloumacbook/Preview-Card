@@ -1,0 +1,198 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 20px;
+    border-radius: 5%
+}
+.card{
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    width: 310px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    margin-top: 150px;
+}
+
+
+.coin-identity{
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    color: white;
+    top: 300px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.coin-description{
+    margin: 0;
+    color: #778ead;
+    top: 350px;
+    left: 25px;
+    width: 270px;
+    position: absolute;
+}
+
+.left-side{
+    position: relative;
+    margin: 0;
+
+}
+
+.eth-icon{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 25px;
+
+}
+
+.amount{
+    position: absolute;
+    left: 45px;
+    color: hsl(178, 100%, 50%);
+    width: 80px;
+    margin: 0;
+
+}
+
+.under-description{
+    margin: 0;
+    position: absolute;
+    top: 410px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side{
+    position: relative;
+    margin: 0;
+}
+
+.clock-icon{
+    margin: 0;
+    position: absolute;
+    right: 90px;
+    top: 1px;
+}
+
+.days-left{
+    width: 75px;
+    margin: 0;
+    position: absolute;
+    color: hsl(215, 51%, 70%);
+    right: 10px;
+    top: 1.5px;
+    font-size: 13px;
+    
+}
+
+.horizontal-line{
+    margin: 0;
+    position: absolute;
+    top: 460px;
+    width: 250px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: hsl(21, 31%, 26%);
+
+}
+
+.avatar{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    left: 25px;
+    bottom: 30px;
+}
+
+.creator{
+    margin: 0;
+    position: absolute;
+    color: #9377ad;
+    left: 65px;
+    bottom: 40px;
+}
+
+.creator-name{
+    text-decoration: none;
+    font-weight: 200;
+    left: 100px;
+    color: white;
+}
+
+.bnh{
+    position: absolute;
+    left: 85px;
+    width: 100px;
+}
+
+.creator-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.coin-identity:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.container{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cyan-background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background: hsl(178, 100%, 50%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.eye-icon{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container:hover .eye-icon{
+    opacity: 100%;
+}
+
+.container:hover .cyan-background{
+    opacity: 0.5;
+
+}
+
+
+
+
